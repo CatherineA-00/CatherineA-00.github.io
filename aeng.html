@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catherine's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #9CAF88; /* Sage green */
+            padding: 1em;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        nav.top-nav {
+            background-color: #6e8b5b;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            padding: 0.5em;
+        }
+
+        nav.side-nav {
+            background-color: #d1d9ce;
+            width: 200px;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        main {
+            flex: 1;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-section {
+            display: flex;
+            gap: 2em;
+            margin-top: 2em;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Applied Engineering 110
+    </header>
+
+    <nav class="top-nav">
+           <button onclick="window.location.href = 'index.html';">Home</button>
+           <button onclick="window.location.href = 'index.html';">Back</button>
+           <button onclick="window.location.href = 'project.html';">Project</button>
+    </nav>
+
+    <div class="container">
+        <nav class="side-nav">
+            <button onclick="window.location.href = 'index.html';">Home</button>
+            <button onclick="window.location.href = 'index.html';">Back</button>
+           <button onclick="window.location.href = 'project.html';">Project</button>
+        </nav>
+
+        <main>
+            <h2>What is AENG 110?</h2>
+            <div class="about-section">
+                <div class="about-text">
+                    <p>AENG 110 Is an applied engineering course at millersville university about graphic communications. This course has brought me through various projects. Some being difficult and some being easy. my three favorite projects being highlighted in this website under the "projects" button.</p>
+                </div>
+                <div class="about-image">
+                    <img src="me.gif" alt="About Me Image">
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2025 Catherine Allen
+    </footer>
+
+</body>
+</html>

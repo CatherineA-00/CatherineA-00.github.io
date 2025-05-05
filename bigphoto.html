@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catherine's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #9CAF88; /* Sage green */
+            padding: 1em;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        nav.top-nav {
+            background-color: #6e8b5b;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            padding: 0.5em;
+        }
+
+        nav.side-nav {
+            background-color: #d1d9ce;
+            width: 200px;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        main {
+            flex: 1;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-section {
+            display: flex;
+            gap: 2em;
+            margin-top: 2em;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Enlarged Photography Assignment
+    </header>
+
+    <nav class="top-nav">
+        <button onclick="window.location.href = 'index.html';">Home</button>
+           <button onclick="window.location.href = 'aeng.html';">AENG 110</button>
+           <button onclick="window.location.href = 'photo.html';">Back</button>
+    </nav>
+
+    <div class="container">
+        <nav class="side-nav">
+            <button onclick="window.location.href = 'index.html';">Home</button>
+            <button onclick="window.location.href = 'aeng.html';">AENG 110</button>
+           <button onclick="window.location.href = 'photo.html';">back</button>
+        </nav>
+
+        <main>
+            <h2>Enlarged Images</h2>
+            <div class="about-section">
+                <div class="about-text">
+                     <img src="photone.gif" alt="About Me Image">
+                     <img src="phototwo.gif" alt="About Me Image">
+                     <img src="photothree.gif" alt="About Me Image">
+                     <img src="photofour.gif" alt="About Me Image">
+                </div>
+                <div class="about-image">
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2025 Catherine Allen
+    </footer>
+
+</body>
+</html>
